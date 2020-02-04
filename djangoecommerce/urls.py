@@ -36,8 +36,14 @@ from .core import views
 # ]
 
 
+# urlpatterns = [
+#     url(r'^$', views.index, name='index'),
+#     url(r'^produtos/', include('djangoecommerce.catalog.urls', namespace='catalog')),
+#     url(r'^admin/', admin.site.urls),
+# ]
+
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^produtos/', include('djangoecommerce.catalog.urls', namespace='catalog')),
+    url(r'^catalogo/', include('djangoecommerce.catalog.urls', namespace='catalog')),
     url(r'^admin/', admin.site.urls),
 ]
