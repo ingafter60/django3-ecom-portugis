@@ -41,7 +41,8 @@ INSTALLED_APPS = [
 
     # my apps
     'djangoecommerce.core',
-    'djangoecommerce.catalog',
+    # 'djangoecommerce.catalog',
+    'djangoecommerce.catalog.apps.CatalogConfig',
 ]
 
 MIDDLEWARE = [
