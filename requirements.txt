@@ -6,7 +6,7 @@ dj-static==0.0.6
 Django==1.10.5
 django-extensions==1.7.6
 gunicorn==19.6.0
-ipython==5.1.0
+ipython==7.16.3
 ipython-genutils==0.1.0
 packaging==16.8
 pexpect==4.2.1
